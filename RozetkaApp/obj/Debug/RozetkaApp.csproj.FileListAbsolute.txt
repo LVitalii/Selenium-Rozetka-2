@@ -1,0 +1,20 @@
+D:\Projects\Automation Mentoring\Selenium rozetka\Rozetka\RozetkaApp\bin\Debug\RozetkaApp.pdb
+D:\Projects\Automation Mentoring\Selenium rozetka\Rozetka\RozetkaApp\bin\Debug\WebDriver.dll
+D:\Projects\Automation Mentoring\Selenium rozetka\Rozetka\RozetkaApp\bin\Debug\WebDriver.xml
+D:\Projects\Automation Mentoring\Selenium rozetka\Rozetka\RozetkaApp\obj\Debug\RozetkaApp.csprojResolveAssemblyReference.cache
+D:\Projects\Automation Mentoring\Selenium rozetka\Rozetka\RozetkaApp\obj\Debug\RozetkaApp.pdb
+D:\Projects\Automation Mentoring\Selenium rozetka\Rozetka\RozetkaApp\bin\Debug\WebDriver.Support.dll
+D:\Projects\Automation Mentoring\Selenium rozetka\Rozetka\RozetkaApp\bin\Debug\WebDriver.Support.xml
+D:\Projects\Automation Mentoring\Selenium rozetka\Rozetka\RozetkaApp\bin\Debug\RozetkaApp.dll.config
+D:\Projects\Automation Mentoring\Selenium rozetka\Rozetka\RozetkaApp\bin\Debug\RozetkaApp.dll
+D:\Projects\Automation Mentoring\Selenium rozetka\Rozetka\RozetkaApp\obj\Debug\RozetkaApp.dll
+D:\Projects\AutomationMentoring\Selenium Rozetka\Rozetka\RozetkaApp\bin\Debug\RozetkaApp.dll.config
+D:\Projects\AutomationMentoring\Selenium Rozetka\Rozetka\RozetkaApp\bin\Debug\RozetkaApp.dll
+D:\Projects\AutomationMentoring\Selenium Rozetka\Rozetka\RozetkaApp\bin\Debug\RozetkaApp.pdb
+D:\Projects\AutomationMentoring\Selenium Rozetka\Rozetka\RozetkaApp\bin\Debug\WebDriver.dll
+D:\Projects\AutomationMentoring\Selenium Rozetka\Rozetka\RozetkaApp\bin\Debug\WebDriver.Support.dll
+D:\Projects\AutomationMentoring\Selenium Rozetka\Rozetka\RozetkaApp\bin\Debug\WebDriver.xml
+D:\Projects\AutomationMentoring\Selenium Rozetka\Rozetka\RozetkaApp\bin\Debug\WebDriver.Support.xml
+D:\Projects\AutomationMentoring\Selenium Rozetka\Rozetka\RozetkaApp\obj\Debug\RozetkaApp.csprojResolveAssemblyReference.cache
+D:\Projects\AutomationMentoring\Selenium Rozetka\Rozetka\RozetkaApp\obj\Debug\RozetkaApp.dll
+D:\Projects\AutomationMentoring\Selenium Rozetka\Rozetka\RozetkaApp\obj\Debug\RozetkaApp.pdb

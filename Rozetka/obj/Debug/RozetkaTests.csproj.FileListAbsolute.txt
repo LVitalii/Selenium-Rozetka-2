@@ -1,0 +1,5 @@
+D:\Projects\Automation Mentoring\Selenium rozetka\Rozetka\Rozetka\bin\Debug\RozetkaTests.dll
+D:\Projects\Automation Mentoring\Selenium rozetka\Rozetka\Rozetka\bin\Debug\RozetkaTests.pdb
+D:\Projects\Automation Mentoring\Selenium rozetka\Rozetka\Rozetka\obj\Debug\RozetkaTests.csprojResolveAssemblyReference.cache
+D:\Projects\Automation Mentoring\Selenium rozetka\Rozetka\Rozetka\obj\Debug\RozetkaTests.dll
+D:\Projects\Automation Mentoring\Selenium rozetka\Rozetka\Rozetka\obj\Debug\RozetkaTests.pdb
