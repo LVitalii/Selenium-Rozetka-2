@@ -36,6 +36,14 @@ namespace RozetkaApp
             manager.Driver.Navigate().GoToUrl(@"http://rozetka.com.ua/mobile-phones/c80003/preset=smartfon/");
         }
 
+        //used for simplify tests for filtering
+        public void GoToLaptopAsus()
+        {
+            manager.Driver.Navigate().GoToUrl(@"http://rozetka.com.ua/ua/notebooks/asus/c80004/v004/");
+            //manager.WaitForElementByXpath(captionXpath);
+        }
+        
+
         //refused from using due to Rozetka shows subsciption pop-up that hovers logo
         public void GoToMainPage()
         {

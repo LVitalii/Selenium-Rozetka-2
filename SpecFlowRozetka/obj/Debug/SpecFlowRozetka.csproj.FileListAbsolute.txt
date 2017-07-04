@@ -1,0 +1,15 @@
+D:\Projects\AutomationMentoring\Selenium Rozetka 2\SpecFlowRozetka\bin\Debug\SpecFlowRozetka.dll.config
+D:\Projects\AutomationMentoring\Selenium Rozetka 2\SpecFlowRozetka\bin\Debug\SpecFlowRozetka.dll
+D:\Projects\AutomationMentoring\Selenium Rozetka 2\SpecFlowRozetka\bin\Debug\SpecFlowRozetka.pdb
+D:\Projects\AutomationMentoring\Selenium Rozetka 2\SpecFlowRozetka\bin\Debug\nunit.framework.dll
+D:\Projects\AutomationMentoring\Selenium Rozetka 2\SpecFlowRozetka\bin\Debug\TechTalk.SpecFlow.dll
+D:\Projects\AutomationMentoring\Selenium Rozetka 2\SpecFlowRozetka\bin\Debug\nunit.framework.xml
+D:\Projects\AutomationMentoring\Selenium Rozetka 2\SpecFlowRozetka\obj\Debug\SpecFlowRozetka.csprojResolveAssemblyReference.cache
+D:\Projects\AutomationMentoring\Selenium Rozetka 2\SpecFlowRozetka\obj\Debug\SpecFlowRozetka.dll
+D:\Projects\AutomationMentoring\Selenium Rozetka 2\SpecFlowRozetka\obj\Debug\SpecFlowRozetka.pdb
+D:\Projects\AutomationMentoring\Selenium Rozetka 2\SpecFlowRozetka\bin\Debug\RozetkaApp.dll
+D:\Projects\AutomationMentoring\Selenium Rozetka 2\SpecFlowRozetka\bin\Debug\WebDriver.dll
+D:\Projects\AutomationMentoring\Selenium Rozetka 2\SpecFlowRozetka\bin\Debug\WebDriver.Support.dll
+D:\Projects\AutomationMentoring\Selenium Rozetka 2\SpecFlowRozetka\bin\Debug\RozetkaApp.pdb
+D:\Projects\AutomationMentoring\Selenium Rozetka 2\SpecFlowRozetka\bin\Debug\WebDriver.xml
+D:\Projects\AutomationMentoring\Selenium Rozetka 2\SpecFlowRozetka\bin\Debug\WebDriver.Support.xml

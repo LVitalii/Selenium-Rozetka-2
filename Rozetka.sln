@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RozetkaApp", "RozetkaApp\RozetkaApp.csproj", "{5D96FA25-0DED-4901-8ED7-BC1C29B4C51D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RozetkaTests", "RozetkaTests\RozetkaTests.csproj", "{1CAF0955-C5C0-4F53-8641-49565A2701B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowRozetka", "SpecFlowRozetka\SpecFlowRozetka.csproj", "{44F702B4-913E-4B86-B107-A49B033A19C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1CAF0955-C5C0-4F53-8641-49565A2701B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CAF0955-C5C0-4F53-8641-49565A2701B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CAF0955-C5C0-4F53-8641-49565A2701B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F702B4-913E-4B86-B107-A49B033A19C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F702B4-913E-4B86-B107-A49B033A19C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F702B4-913E-4B86-B107-A49B033A19C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F702B4-913E-4B86-B107-A49B033A19C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

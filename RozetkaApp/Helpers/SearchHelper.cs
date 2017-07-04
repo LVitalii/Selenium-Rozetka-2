@@ -16,8 +16,18 @@ namespace RozetkaApp
 
         public void SearchByWord(string searchWord)
         {
+            TypeWordToSearchBox(searchWord);
+            ClickOnSearchButton();
+        }
+
+        public void TypeWordToSearchBox(string searchWord)
+        {
             IWebElement searchField = driver.FindElement(By.CssSelector("input.rz-header-search-input-text.passive"));
             searchField.SendKeys(searchWord);
+        }
+
+        public void ClickOnSearchButton()
+        {
             IWebElement searchButton = driver.FindElement(By.CssSelector("button[name='rz-search-button']"));
             searchButton.Click();
             string searchResultId = "search_result_title_text";
@@ -30,7 +40,7 @@ namespace RozetkaApp
             bool contains = false;
             foreach (IWebElement link in links)
             {
-                if (link.Text.Contains(searchWord))
+                if (link.Text.ToLower().Contains(searchWord.ToLower()))
                     contains = true;
             }
             return contains;

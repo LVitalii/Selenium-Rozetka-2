@@ -19,10 +19,13 @@ namespace RozetkaApp
         private SearchHelper searchHelper;
         private FilteringHelper filteringHelper;
         private NavigationHelper navigationHelper;
+        private CatalogPage catalogPage;
+        private MainPage mainPage;
+        private NavigationPage NavigationPage;
         
         private AppManager ()
         {
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(System.IO.Directory.GetCurrentDirectory() + @"\Selenium Rozetka 2\RozetkaApp\ChromeDriver");
             baseUrl = @"http://rozetka.com.ua";
             PageInitialization(this);
         }        
@@ -62,6 +65,9 @@ namespace RozetkaApp
             searchHelper = new SearchHelper(manager);
             filteringHelper = new FilteringHelper(manager);
             navigationHelper = new NavigationHelper(manager);
+            catalogPage = new CatalogPage(manager);
+            mainPage = new MainPage(manager);
+            NavigationPage = new NavigationPage(manager);
         }
 
         public SearchHelper SearchHelper

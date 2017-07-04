@@ -39,14 +39,39 @@ namespace RozetkaApp
 
         public void SortByPriceDesc()
         {
-            IWebElement sortList = manager.Driver.FindElement(By.CssSelector(".sort-view-link"));
-            sortList.Click();
+            ClickOnSortDropDown();
+            ClickOnSortByDescPrice();
+        }
+
+        public void ClickOnSortByDescPrice()
+        {
             IWebElement priceDesc = manager.Driver.FindElement(By.XPath("//li[@id='filter_sortexpensive']/a"));
             priceDesc.Click();
 
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
             wait.Until(d => d.FindElement(By.XPath("//div[@name='drop_menu']")).GetAttribute("style").Contains("visibility: hidden;"));
-            
+
+        }
+
+        public void SortByDiscount()
+        {
+            ClickOnSortDropDown();
+            ClickOnSortByDiscount();            
+        }
+
+        public void ClickOnSortByDiscount()
+        {
+            IWebElement priceDesc = manager.Driver.FindElement(By.XPath("//li[@id='filter_sortaction']/a"));
+            priceDesc.Click();
+
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            wait.Until(d => d.FindElement(By.XPath("//div[@name='drop_menu']")).GetAttribute("style").Contains("visibility: hidden;"));
+        }
+
+        public void ClickOnSortDropDown()
+        {
+            IWebElement sortList = manager.Driver.FindElement(By.CssSelector(".sort-view-link"));
+            sortList.Click();
         }
 
         public bool IsProductsSortedByPriceDesc()
@@ -61,6 +86,12 @@ namespace RozetkaApp
                 prevPrice = currPrice;
             }
             return isDescending;
+        }
+
+        public bool IsWithDiscount()
+        { 
+            IList<IWebElement> discs = manager.Driver.FindElements(By.XPath(".//i[@name='prices_active_element_original']"));
+            return discs.Count > 0;
         }
 
     }

@@ -1,0 +1,18 @@
+Тема:покупка товара на Розетке.
+1.Создать проект с использованием Specflow;
+2.Написать
+	1 сценарий в Императивном стиле, -> FilterSmartphones.feature
+	1 сценарий в Декларативном виде; -> FilterSmartphones.feature
+3.Написать 1 ScenarioOutline;	-> SearchForSmartphone.feature
+4.Написать пример с использованием Table внутрисценария. -> SearchForSmartphone.feature
+
+TestAutomationFramework(TAF). Homework.
+1.Создать ТАФ для любого сайта.Например: сайтРозетка, гугл и так далее. -> from previous task
+-Описать не менее 3ех страниц; -> 	Pages\CatalogPage.cs
+								Pages\MainPage.cs
+								Pages\NavigationPage.cs
+-также описать базовую страницу, куда необходимо вынести базовые вещи для работы со всеми страницами; 
+							-> Pages\BasePage.cs
+-создать слой ‘Контролы’ для работы с элементами. -> Controls\HtmlButton.cs, HtmlButton.cs, HtmlLink.cs, HtmlTextBox.cs
+-написать не менее 3ех БДД сценариев; -> from previous task
+-запустить тесты и убедиться, что они проходят (прислать скриншот). -> from previous task
